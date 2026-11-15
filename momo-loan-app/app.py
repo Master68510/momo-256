@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.secret_key = "super_secret_momo_key"
 
 # MongoDB connection
-client = MongoClient("mongodb+srv://kipshem279_db_user:CFyMB1X5UBFYvqEv@cluster0.ktcqbwq.mongodb.net/momo_loan_db?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://superuser:2006@superuser.uenn69l.mongodb.net/momo_loan_db?retryWrites=true&w=majority&appName=superuser")
 db = client["momo_loan_db"]
 applications_collection = db["applications"]
 
